@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form-Table
+        </title>
+        <style>
+            table,td{
+                border:1px solid black;
+                border-collapse: collapse;
+                width:30%;
+                padding:40px;
+                margin:5% auto;
+            }
+             
+        </style>
+    </head>
+    <body>
+        <table>
+            
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="Name" maxlength="20"/></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="email" maxlenght="20"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Qualifications</td>
+                <td><textarea></textarea></td>
+                
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender" value="male"/>male
+                    <input type="radio" name="gender" value="female"/>female
+            </tr>
+
+            <tr>
+                <td>Hobbies</td>
+                <td><input type="checkbox" name="hobbies1" value="Playing"/>Playing 
+                  <input type="checkbox" name="hobbies2" value="Travelling"/>Travelling
+                    
+                    <input type="checkbox" name="hobbies3" value="Reading"/>Reading
+                           <input type="checkbox" name="hobbies4" value="Surfing"/>Surfing
+                    
+            </tr>
+        </table>
+    </body>
+</html>
